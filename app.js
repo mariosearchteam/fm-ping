@@ -13,10 +13,11 @@ const App = {
 
      <main>
         <section class="hero">
-          <h1 class="mb-4 text-5xl font-thin text-gray">We are launching <span class="font-bold text-black">soon!</span></h1>
-          <p class="text-xl font-light">Subscribe and get notified</p>
-          
+          <h1 class="mb-4 md:text-5xl font-thin text-gray text-2xl">We are launching <span class="font-bold text-black">soon!</span></h1>
+          <p class="text-sm md:text-xl font-light">Subscribe and get notified</p>
+          <div class="px-10">
           <v-form></v-form>
+          </div>
          
         </section>
         <section class="main">
