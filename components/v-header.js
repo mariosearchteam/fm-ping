@@ -1,7 +1,7 @@
 export default {
     template: `
-               <header>
-        <img src="./images/logo.svg" alt="Ping logo">
-     </header>
+       <header class="my-10">
+        <img src="./images/logo.svg" alt="Ping logo" class="block m-auto">
+        </header>
     `
 }

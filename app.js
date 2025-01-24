@@ -1,6 +1,7 @@
 import VFooter from './components/v-footer.js';
 import VHeader from "./components/v-header.js";
 import VForm from "./components/v-form.js";
+
 const App = {
     components: {
         'v-footer': VFooter,
@@ -12,13 +13,14 @@ const App = {
 
      <main>
         <section class="hero">
-          <h1>We are launching soon!</h1>
-          <p>Subscribe and get notified</p>
+          <h1 class="mb-4 text-5xl font-thin text-gray">We are launching <span class="font-bold text-black">soon!</span></h1>
+          <p class="text-xl font-light">Subscribe and get notified</p>
+          
           <v-form></v-form>
          
         </section>
         <section class="main">
-          <img src="./images/illustration-hero.svg" alt="Illustration of a laptop">
+          <img src="./images/illustration-dashboard.png" alt="Illustration of a laptop" width="640">
         </section>
      </main>
      <v-footer></v-footer>
